@@ -1,0 +1,108 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.navBarSection{
+    /* background-color: #60a2a2; */
+}
+
+/* step3: componentContainer */
+.navBarContainer{
+    /* background-color: #6666ab; */
+    width: 100%;
+    margin: auto;
+}
+
+/* step4: row */
+.navBody{
+    /* background-color: #d49494; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0rem;
+}
+
+.navBody {
+    position: relative;
+    /* background: #ff3300; */
+    /* padding: 15px; */
+}
+
+/* .navBody::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 27rem;
+    width: 50px;
+    height: 100%;
+    background: #d4d6db;
+    clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%,0% 30%);
+} */
+
+/* step5: column 1 */
+.logoBlock{
+    background-color: var(--primaryColor);
+    padding: 0.1rem 0rem;
+}
+
+/* step6: subColumn 1 */
+.logoBox{
+    /* background-color: #b8860b; */
+    padding: 1rem;
+    padding-right: 4rem;
+}
+
+/* step7: contentContainer */
+.logoBox img{
+    /* background-color: #a52a2a; */
+    height: 4.7rem;
+}
+
+/* step5: column 2 */
+.navLinkBlock{
+    background-color: var(--secondaryColor);
+    padding: 0.2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 2 */
+.navLinkBox{
+    /* background-color: #deb887; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* step7: contentContainer */
+.navLinkBox li{
+    /* background-color: #9acd32; */
+    padding-right: 1rem;
+}
+
+.navLinkBox a{
+    /* background-color: #d2691e; */
+    font-family: var(--Quanternary);
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+.navLinkBox i{
+    /* background-color: #deb887; */
+    font-size: 1rem;
+    padding-left: 0.3rem;
+    color: var(--primaryColor);
+}
