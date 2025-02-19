@@ -38,10 +38,89 @@
     height: 4rem;
   }
 
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* step6: subColumn */
+  .heroBox {
+    /* background-color: #10dab2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .heroBox h1 {
     /* background-color: #7fff00; */
     font-size: 4rem;
+    font-weight: 600;
+    text-wrap: wrap;
   }
+  .heroBox p {
+    /* background-color: #344425; */
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+
+  .headingBox h2 {
+    /* background-color: #a52a2a; */
+   text-wrap: wrap;
+  }
+
+  .expertiseCard {
+    /* background-color: #59cbcb; */
+    border-radius: 5px;
+    padding: 3rem 1.5rem;
+  }
+
+  .expertiseCard h3 {
+    /* background-color: #59cbcb; */
+    font-weight: 400;
+    font-size: 3.6rem;
+  }
+
+  .expertiseCard h4 {
+    /* background-color: #59cbcb; */
+    font-weight: 700;
+  }
+
+  .serviceBlock {
+    /* background-color: #dddd11; */
+    padding: 3rem;
+  }
+
+  .reviewContainer{
+    padding: 1rem;
+  }
+
+  .contactBody {
+    background-color: #d49494;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    column-gap: 0rem;
+  }
+
+  .contactBlock {
+    /* background-color: #5c40ab; */
+    width: 50%;
+  }
+
+  .contactParaBlock {
+    /* background-color: #59cbcb; */
+    width: 100%;
+  }
+  
+  .contactButtonBox button {
+    /* background-color: #54b1a8; */
+    text-wrap: nowrap;
+  }
+
   .align{
     padding: 1rem;
   }
@@ -66,6 +145,68 @@
 @media (width >=577px) and (width <=768px) {
   .navLinkBox{
     display: none;
+  }
+
+  .navBody {
+    /* background-color: #d49494; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .navLinkBlock{
+    display: none;
+  }
+  .logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logoBox {
+    /* background-color: #b8860b; */
+    /* padding: 1rem; */
+    padding-right: 0rem;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 4rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* step6: subColumn */
+  .heroBox {
+    /* background-color: #10dab2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4rem;
+    text-wrap: wrap;
+  }
+  .heroBox p {
+    /* background-color: #344425; */
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+  .align{
+    padding: 1rem;
+  }
+
+  .clientBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

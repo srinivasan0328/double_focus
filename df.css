@@ -165,6 +165,7 @@
   margin-bottom: 4rem;
   text-wrap: wrap;
   text-transform: capitalize;
+  font-size: 1.8rem;
 }
 
 .heroBtn {
@@ -400,6 +401,7 @@
 /* step6: subColumn 1 */
 .headingBox {
   /* background-color: #b8860b; */
+  width: 100%;
 }
 
 /* step7: contentContainer */
@@ -407,8 +409,9 @@
   /* background-color: #a52a2a; */
   color: var(--headingColor);
   font-family: var(--ffTertiary);
-  font-size: 3.3rem;
+  font-size: 3.2rem;
   margin-bottom: 2rem;
+  text-wrap: wrap;
 }
 
 .headingBox h4 {
@@ -691,8 +694,9 @@
   /* background-color: #a52a2a; */
   color: var(--headingColor);
   font-family: var(--ffTertiary);
-  font-size: 3.3rem;
+  font-size: 3.2rem;
   margin-bottom: 2rem;
+  text-wrap: nowrap;
 }
 
 .headingBox h4 {
@@ -827,7 +831,8 @@
 
 /* step5: column 1 */
 .contactBlock {
-  /* background-color: #872828; */
+  background-color: #872828;
+  display: flex;
 }
 
 /* step6: subColumn 1 */
@@ -846,14 +851,15 @@
 }
 
 .contactParaBlock {
-  /* background-color: #59cbcb; */
+  background-color: #59cbcb;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
 .contactBox {
-  /* background-color: #59cbcb; */
+  background-color: #b2cb59;
+  width: 100%;
 }
 
 .contactBox h4 {
@@ -891,6 +897,7 @@
   padding: 1.2rem 2.5rem;
   cursor: pointer;
   margin-bottom: 1rem;
+  text-wrap: nowrap;
 }
 
 /* clients */
@@ -973,7 +980,7 @@
 
 /* step2: component */
 .footerSection{
-  background-color: var(--blueColor);
+  
 }
 
 /* step3: componentContainer */
@@ -985,7 +992,7 @@
 
 /* step4: row */
 .footerBody{
-  /* background-color: #a870a1; */
+  background-color: var(--blueColor);
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 2fr;
   column-gap: 3rem;
