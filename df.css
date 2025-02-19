@@ -656,3 +656,147 @@
     text-wrap: wrap;
     margin-bottom: 1rem;
 }
+
+/* reviews */
+
+
+/* step2: component */
+.reviewSection {
+  background-color: #f7f9fb;
+  padding: 9rem 2rem;
+}
+
+/* step3: componentContainer */
+.reviewContainer {
+  /* background-color: #6666ab; */
+}
+
+/* step4: row1 */
+.headingBody {
+  /* background-color: #d49494; */
+}
+
+/* step5: column 1 */
+.headingBlock {
+  /* background: #ff3300; */
+}
+
+/* step6: subColumn 1 */
+.headingBox {
+  /* background-color: #b8860b; */
+}
+
+/* step7: contentContainer */
+.headingBox h2 {
+  /* background-color: #a52a2a; */
+  color: var(--headingColor);
+  font-family: var(--ffTertiary);
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.headingBox h4 {
+  /* background-color: #a52a2a; */
+  color: var(--secondaryColor);
+  font-family: var(--ffQuanternary);
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+
+.reviewBody {
+  /* background-color: #539f86; */
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.reviewBlock {
+  /* background-color: #dddd11; */
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #dce0e3;
+  box-shadow: rgb(115, 109, 109) 5px 25px 35px -35px;
+}
+
+.reviewBox {
+  /* background-color: #2d6320; */
+}
+
+.reviewCrad {
+  /* background-color: #cb5945; */
+}
+
+.reviewCardHead {
+  /* background-color: #38bd17; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reviewCardHead i {
+  /* background-color: #17a1bd; */
+  font-size: 6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 2rem;
+}
+
+.serviceCardMain {
+  /* background-color: #b7d038; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.servicceCardMain p {
+  /* background-color: #42320b; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.8rem;
+  color: var(--headingColor);
+  margin-bottom: 2rem;
+}
+
+.reviewCardFooter {
+  /* background-color: #d04f38; */
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 2rem;
+  text-align: start;
+}
+
+.reviewfooterImg {
+  /* background-color: #494d74; */
+}
+
+.reviewfooterImg img {
+  /* background-color: #84b243; */
+  height: 7rem;
+}
+
+.reviewFooterPara {
+  /* background-color: #731b44; */
+  text-align: start;
+  text-wrap: wrap;
+}
+
+.reviewFooterPara p {
+  /* background-color: #731b44; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--headingColor);
+  text-wrap: wrap;
+}
+
+.reviewFooterPara span {
+  /* background-color: #731b44; */
+  /* display: flex; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--secondaryColor);
+  text-wrap: wrap;
+}
