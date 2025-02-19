@@ -11,12 +11,62 @@
   .grid-4 {
     grid-template-columns: 1fr;
   }
+
+  .navBody {
+    /* background-color: #d49494; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .navLinkBox{
+    display: none;
+  }
+  .logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logoBox {
+    /* background-color: #b8860b; */
+    /* padding: 1rem; */
+    padding-right: 0rem;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 4rem;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4rem;
+  }
+  .align{
+    padding: 1rem;
+  }
+
+  .clientBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footerBody{
+    display: grid;
+    grid-template-areas: "f1 f2",
+    "f3 f3"
+    "f4 f4";
+    padding: 2rem;
+  }
+
 }
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (min-width: 577px) and (max-width: 768px) */
 @media (width >=577px) and (width <=768px) {
-  /* write code here */
+  .navLinkBox{
+    display: none;
+  }
 }
 
 /* Large devices (Laptops, upto 992px and above) */
