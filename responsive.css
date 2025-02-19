@@ -18,7 +18,7 @@
     grid-template-columns: 1fr;
     padding: 1rem;
   }
-  .navLinkBlock{
+  .navLinkBlock {
     display: none;
   }
   .logoBlock {
@@ -38,13 +38,17 @@
     height: 4rem;
   }
 
+  .heroBody {
+    padding: 2rem;
+  }
+
   .heroBlock {
     /* background-color: #ffe4c4; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   /* step6: subColumn */
   .heroBox {
     /* background-color: #10dab2; */
@@ -60,16 +64,36 @@
     font-size: 4rem;
     font-weight: 600;
     text-wrap: wrap;
+    line-height: 1.5;
+    margin-bottom: 1rem;
   }
   .heroBox p {
     /* background-color: #344425; */
     font-size: 1.4rem;
     text-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .heroBtn {
+    width: 100%;
+    padding: 2rem;
+    column-gap: 2rem;
+    /* row-gap: 2rem; */
+  }
+  .headingBody {
+    /* background-color: #d49494; */
+    padding: 1rem;
+  }
+
+  .headingBlock {
+    /* background: #ff3300; */
+    width: 100%;
   }
 
   .headingBox h2 {
     /* background-color: #a52a2a; */
-   text-wrap: wrap;
+    width: 100%;
+    text-wrap: wrap;
   }
 
   .expertiseCard {
@@ -94,56 +118,114 @@
     padding: 3rem;
   }
 
-  .reviewContainer{
+  .decideCardBody {
+    /* background-color: #a870a1; */
+    gap: 3rem;
+    padding: 5rem 3rem;
+    row-gap: 6rem;
+  }
+
+  .reviewBody {
+    /* background-color: #539f86; */
+    padding: 2rem;
+  }
+
+  .reviewContainer {
     padding: 1rem;
   }
 
   .contactBody {
-    background-color: #d49494;
+    /* background-color: #d49494; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
-    column-gap: 0rem;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    row-gap: 1rem;
   }
 
   .contactBlock {
-    /* background-color: #5c40ab; */
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .contactParaBlock {
-    /* background-color: #59cbcb; */
-    width: 100%;
+  .contactBox {
+    /* background-color: #344425; */
   }
-  
+
+  .contactBox p {
+    /* background-color: #344425; */
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+
+  .contactBox h4 {
+    /* background-color: #344425; */
+    /* font-size: 1.4rem; */
+    text-wrap: wrap;
+    line-height: 1.1;
+  }
+
+  .contactButtonBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
   .contactButtonBox button {
     /* background-color: #54b1a8; */
     text-wrap: nowrap;
   }
 
-  .align{
+  .align {
     padding: 1rem;
   }
 
-  .clientBody{
+  .clientBody {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 1rem;
   }
 
-  .footerBody{
+  /* .footerBody{
     display: grid;
     grid-template-areas: "f1 f2",
     "f3 f3"
     "f4 f4";
     padding: 2rem;
+  } */
+
+  .copyRightsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  .footerHead h5 {
+    text-wrap: wrap;
+  }
+
+  .footContact p {
+    text-wrap: wrap;
+  }
+
+  .copyRightsImageBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .copyRightsParaBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (min-width: 577px) and (max-width: 768px) */
 @media (width >=577px) and (width <=768px) {
-  .navLinkBox{
+  .navLinkBox {
     display: none;
   }
 
@@ -153,7 +235,7 @@
     grid-template-columns: 1fr;
     padding: 1rem;
   }
-  .navLinkBlock{
+  .navLinkBlock {
     display: none;
   }
   .logoBlock {
@@ -179,7 +261,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   /* step6: subColumn */
   .heroBox {
     /* background-color: #10dab2; */
@@ -200,11 +282,11 @@
     font-size: 1.4rem;
     text-wrap: wrap;
   }
-  .align{
+  .align {
     padding: 1rem;
   }
 
-  .clientBody{
+  .clientBody {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
