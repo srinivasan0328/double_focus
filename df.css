@@ -116,14 +116,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: #ffffff;
+  overflow-wrap: anywhere;
 }
 
 /* step3: componentContainer */
 .heroContainer {
   /* background-color: #ff6347; */
+  
 }
 
 /* step4: row */
@@ -170,6 +172,9 @@
 
 .heroBtn {
   /* background-color: #769b52; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
   padding: 2rem;
   column-gap: 2rem;
@@ -184,6 +189,7 @@
   color: var(--primaryColor);
   background: var(--secondaryColor);
   border: none;
+  
 }
 
 /* about */

@@ -39,6 +39,7 @@
   }
 
   .heroBody {
+    /* background-color: #a52a2a; */
     padding: 2rem;
   }
 
@@ -75,9 +76,12 @@
   }
 
   .heroBtn {
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem;
     column-gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* row-gap: 2rem; */
   }
   .headingBody {
@@ -186,13 +190,11 @@
     padding: 1rem;
   }
 
-  /* .footerBody{
+  .footerBody {
     display: grid;
-    grid-template-areas: "f1 f2",
-    "f3 f3"
-    "f4 f4";
+    grid-template-columns: 1fr;
     padding: 2rem;
-  } */
+  }
 
   .copyRightsBlock {
     display: flex;
@@ -208,13 +210,13 @@
     text-wrap: wrap;
   }
 
-  .copyRightsImageBlock{
+  .copyRightsImageBlock {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
-  .copyRightsParaBox{
+  .copyRightsParaBox {
     display: flex;
     align-items: center;
     justify-content: center;
