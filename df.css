@@ -181,3 +181,478 @@
   background: var(--secondaryColor);
   border: none;
 }
+
+/* about */
+
+/* step2: component */
+.aboutUsSection {
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* step3: componentContainer */
+.aboutContainer {
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.aboutUsBody {
+  /* background-color: #b384b3; */
+  padding: 1rem;
+  gap: 3rem;
+}
+
+/* step5: column1 */
+.aboutUsBlock {
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.abutUsBox {
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.abutUsBox h4 {
+  /* background-color: #e56464; */
+  font-family: var(--Quanternary);
+  font-size: 2.6rem;
+  color: var(--secondaryColor);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.abutUsBox h2 {
+  /* background-color: #e56464; */
+  font-family: var(--ffQuanternary);
+  font-size: 5rem;
+  color: var(--lightColor);
+  margin-bottom: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.abth2 {
+  color: var(--secondaryColor);
+}
+
+.abutUsBox h5 {
+  /* background-color: #e56464; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.8rem;
+  color: var(--lightColor);
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.abutUsBox p {
+  /* background-color: #e56464; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.6rem;
+  text-align: justify;
+  color: #040c26;
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.abtP {
+  /* background-color: #387d60; */
+  /* color: #040c26; */
+  font-weight: 600;
+}
+
+.abutUsBox button {
+  /* background-color: #ee82ee; */
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--ffQuanternary);
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+}
+
+.abutUsBox button:hover {
+  /* background: #6495ed; */
+}
+
+/* step5: column2 */
+.aboutUsImageBlock {
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.aboutUsImageBox {
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.aboutUsImageBox img {
+  /* background-color: #a55959; */
+  border-radius: 5px;
+}
+
+/* expertise */
+
+/* step2: component */
+.expertiseSection {
+  background-color: #0a133e;
+}
+
+/* step3: componentContainer */
+.expertiseContainer {
+  /* background-color: #6666ab; */
+  width: 100%;
+  margin: auto;
+}
+
+/* step4: row */
+.expertiseBody {
+  /* background-color: #d49494; */
+  column-gap: 4rem;
+  padding: 5rem;
+  row-gap: 3rem;
+}
+
+/* step5: column 1 */
+.expertiseBlock {
+}
+
+/* step6: subColumn 1 */
+.expertiseBox {
+  /* background-color: #b8860b; */
+}
+
+/* card */
+.expertiseCard {
+  /* background-color: #59cbcb; */
+  border-radius: 5px;
+  padding: 5rem 2rem;
+}
+
+/* step7: contentContainer */
+.expertiseCard h3 {
+  /* background-color: #59cbcb; */
+  font-family: var(--ffQuanternary);
+  font-size: 5rem;
+}
+
+.expertiseCard h4 {
+  /* background-color: #59cbcb; */
+  font-family: var(--ffTertiary);
+  font-size: 2.2rem;
+  color: var(--primaryColor);
+}
+.expertiseSpan {
+  font-family: var(--ffQuanternary);
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.c1 {
+  border: 3px solid #00c5dc;
+  color: #00c5dc;
+}
+
+.c2 {
+  border: 3px solid #ffb822;
+  color: #ffb822;
+}
+
+.c3 {
+  border: 3px solid #ff3c85;
+  color: #ff3c85;
+}
+
+/* serviceCard */
+
+/* step2: component */
+.serviceSection {
+  background-color: #dfedf3;
+}
+
+/* step3: componentContainer */
+.serviceContainer {
+  /* background-color: #6666ab; */
+}
+
+/* step4: row1 */
+.headingBody {
+  /* background-color: #d49494; */
+}
+
+/* step5: column 1 */
+.headingBlock {
+  /* background: #ff3300; */
+}
+
+/* step6: subColumn 1 */
+.headingBox {
+  /* background-color: #b8860b; */
+}
+
+/* step7: contentContainer */
+.headingBox h2 {
+  /* background-color: #a52a2a; */
+  color: var(--headingColor);
+  font-family: var(--ffTertiary);
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.headingBox h4 {
+  /* background-color: #a52a2a; */
+  color: var(--secondaryColor);
+  font-family: var(--ffQuanternary);
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+
+.serviceBody {
+  /* background-color: #539f86; */
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.serviceBlock {
+  /* background-color: #dddd11; */
+  background-color: #ffffff;
+  padding: 2rem 2.2rem;
+}
+
+.serviceBox {
+  /* background-color: #2d6320; */
+}
+
+.serviceCrad {
+  /* background-color: #cb5945; */
+}
+
+.serviceCardHead {
+  /* background-color: #38bd17; */
+}
+
+.serviceCardHead img {
+  /* background-color: #17a1bd; */
+  margin-bottom: 2rem;
+}
+
+.servicceCardMain {
+  /* background-color: #b7d038; */
+  margin-bottom: 2rem;
+}
+
+.servicceCardMain h4 {
+  /* background-color: #42320b; */
+  font-family: var(--ffTertiary);
+  font-size: 2.2rem;
+  color: var(--headingColor);
+  margin-bottom: 2rem;
+  text-wrap: wrap;
+}
+
+.servicceCardMain p {
+  /* background-color: #d04f38; */
+  margin-bottom: 2rem;
+  font-family: var(--ffQuanternary);
+  font-size: 1.8rem;
+  color: var(--headingColor);
+  text-wrap: wrap;
+}
+
+.servicceCardMain li {
+  /* background-color: #494d74; */
+  text-align: start;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.servicceCardMain i {
+  /* background-color: #84b243; */
+  /* padding-top: 1rem; */
+  font-size: 2.2rem;
+  color: var(--secondaryColor);
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-start; */
+}
+
+.servicceCardMain a {
+  /* background-color: #731b44; */
+  padding-left: 1rem;
+  /* display: flex; */
+  font-family: var(--ffQuanternary);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--headingColor);
+  text-wrap: wrap;
+}
+
+.servicceCardMain a:hover {
+  color: var(--secondaryColor);
+}
+
+.serviceCardFooter {
+  /* background-color: #741f1f; */
+}
+
+.serviceCardFooter button {
+  /* background-color: #951fa7; */
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--ffQuanternary);
+  padding: 1.2rem 2.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+
+/* decideCard */
+
+/* step2: component */
+.decideSection {
+  /* background-color: #5dd0d0; */
+  background-image: url(./assets/images/dedideBg.jpg);
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* step3: componentContainer */
+.decideContainer {
+  /* background-color: #9aacac; */
+}
+
+/* step4: row */
+.decideCardBody {
+  /* background-color: #a870a1; */
+  gap: 3rem;
+  padding: 5rem 6rem;
+  row-gap: 6rem;
+}
+
+/* step5: column1 */
+.decideBlock {
+  /* background-color: #624151; */
+}
+
+/* step6: subColumn1 */
+.decideBox {
+  /* background-color: #ffffff; */
+  width: 100%;
+  position: relative;
+}
+
+/* cardHead */
+.decideCardHead {
+  /* background-color: #035895; */
+  position: absolute;
+  top: -10px;
+}
+
+/* step7: contentContainer */
+.decideCardHead h2 {
+  /* background-color: #b3ad5b; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    background-color: var(--mediumBlueColor);
+    color: #ffffff;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;  
+}
+
+/* cardMain */
+
+.decideCardMain {
+  background-color: #ffffff;
+  /* width: 100% !importany; */
+  margin-top: 4rem;
+  padding: 3rem;
+}
+
+.decideCardMain h3 {
+  /* background-color: #a86e47; */
+  /* margin-bottom: 2rem; */
+  color: var(--headingColor);
+  font-family: var(--ffTertiary);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.decideCardMain p {
+  /* background-color: #4a4ca0; */
+    /* margin-bottom: 2rem; */
+    font-family: var(--ffQuanternary);
+    font-size: 1.8rem;
+    color: var(--headingColor);
+    text-wrap: wrap;
+    /* font-weight: 500; */
+}
+
+/* card1 */
+
+.decide1 h2{
+    background-color: #ffffff;
+    color:var(--mediumBlueColor);
+    border: 1px solid var(--mediumBlueColor);
+}
+
+.decide1 .decideCardMain{
+    background-color: #035895;
+    border: 1px solid var(--primaryColor);
+}
+
+.decide1 h3{
+    color: #ffffff;
+}
+
+.decide1 p{
+    color: #ffffff;
+}
+
+/* card2 */
+
+.decide2 h2{
+    color: #ffffff;
+    background-color:var(--mediumBlueColor);
+    
+}
+
+.decide2 .decideCardMain{
+    background-color: #ffffff;
+    margin-top: 4rem;
+}
+
+.decide2 h3{
+    color: #000000;
+    text-wrap: wrap;
+}
+
+.decide2 p{
+    color: #000000;
+    text-wrap: wrap;
+    margin-bottom: 1rem;
+}
