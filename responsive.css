@@ -257,6 +257,11 @@
     height: 4rem;
   }
 
+  .heroBody {
+    /* background-color: #a52a2a; */
+    padding: 12rem 2rem;
+  }
+
   .heroBlock {
     /* background-color: #ffe4c4; */
     display: flex;
@@ -284,8 +289,110 @@
     font-size: 1.4rem;
     text-wrap: wrap;
   }
+
+  
+  .heroBtn {
+    /* width: 100%; */
+    padding: 2rem;
+    column-gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* row-gap: 2rem; */
+  }
+
+  .aboutUsBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem;
+  }
+
+  .expertiseBody{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .headingBody{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .headingBox h2, h4{
+    text-wrap: wrap;
+  }
+
+  .serviceBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 9rem;
+  }
+
+  .decideCardBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 12rem;
+  }
+
+  .contactBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 12rem;
+  }
+
+  .contactButtonBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .contactIconBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contactBox p{ 
+    text-wrap: wrap;
+  }
+  .clientSection {
+    padding: 0rem;
+  }
+
+  .clientBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 4rem;
+  }
+  .footerSection{
+  
+  }
+  .footerBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+  }
+
+  .footContact p{
+    text-wrap: wrap;
+  }
+
+  .copyRightsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 10.5rem;
+  }
+  .copyRightsImageBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .copyRightsParaBox p{
+   text-align: end;
+  }
+  
   .align {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .clientBody {
@@ -297,13 +404,332 @@
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (min-width: 769px) and (max-width: 992px) */
 @media (width >=769px) and (width <=992px) {
-  /* write code here */
+
+  .navBody{
+    padding: 0rem;
+  }
+  .logoBlock{
+    padding: 0rem;
+  }
+  .logoBox {
+    /* background-color: #b8860b; */
+    padding: 0.3rem;
+    /* padding-right: 4rem; */
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    padding-left: 7.8rem;
+    height: 0.5rem;
+  }
+ 
+  .navLinkBox {
+    display: none;
+  }
+
+  .navBody {
+    /* background-color: #d49494; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .navLinkBlock {
+    display: none;
+  }
+  .logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logoBox {
+    /* background-color: #b8860b; */
+    /* padding: 1rem; */
+    padding-right: 0rem;
+  }
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    height: 4rem;
+  }
+
+  .heroBody {
+    /* background-color: #a52a2a; */
+    padding: 13.5rem 2rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* step6: subColumn */
+  .heroBox {
+    /* background-color: #10dab2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4rem;
+    text-wrap: wrap;
+  }
+  .heroBox p {
+    /* background-color: #344425; */
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+
+  
+  .heroBtn {
+    /* width: 100%; */
+    padding: 2rem;
+    column-gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* row-gap: 2rem; */
+  }
+
+  .aboutUsBody{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 4rem 7rem;
+  }
+
+  .expertiseBody{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .headingBody{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .headingBox h2, h4{
+    text-wrap: wrap;
+  }
+
+  .serviceBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 7rem;
+  }
+
+  .decideCardBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 9rem;
+  }
+
+  .contactBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 9rem;
+  }
+
+  .contactButtonBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .contactIconBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contactBox p{ 
+    text-wrap: wrap;
+  }
+  .clientSection {
+    padding: 0rem;
+  }
+
+  .clientBody{
+    /* background-color: aquamarine; */
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 0rem;
+  }
+
+  .grid-5{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .clientBlock{
+    padding: 1rem;
+  }
+  .footerSection{
+  
+  }
+  .footerBody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: stretch;
+    row-gap: 2rem;
+    padding: 7rem 8rem;
+  }
+
+  .footerBlock{
+    /* background-color: #9f9f9f5d; */
+    height: 100%;
+    width: auto;
+    /* min-height: 100%; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0%;
+  }
+
+  .footerMain a{
+    text-wrap: wrap;
+  }
+
+  .footP p{
+    text-wrap: wrap;
+  }
+
+  .copyRightsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 10rem;
+  }
+  .copyRightsImageBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .copyRightsParaBox p{
+   text-align: end;
+  }
+  
+  .align {
+    padding: 2rem;
+  }
+
+  .clientBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
 /* X-Large devices (large desktops, upto 1200px and above) */
 /* @media (min-width: 993px) and (max-width: 1200px) */
 @media (width >=993px) and (width <=1200px) {
-  /* write code here */
+
+
+  .logoBox img {
+    /* background-color: #a52a2a; */
+    padding-right: 3rem;
+    height: 3.5rem;
+  }
+
+  .heroBody {
+    /* background-color: #a52a2a; */
+    padding: 12rem 2rem;
+  }
+
+  .heroBlock {
+    /* background-color: #ffe4c4; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* step6: subColumn */
+  .heroBox {
+    /* background-color: #10dab2; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .heroBox h1 {
+    /* background-color: #7fff00; */
+    font-size: 4rem;
+    text-wrap: wrap;
+  }
+  .heroBox p {
+    /* background-color: #344425; */
+    font-size: 1.4rem;
+    text-wrap: wrap;
+  }
+
+  
+  .heroBtn {
+    /* width: 100%; */
+    padding: 2rem;
+    column-gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* row-gap: 2rem; */
+  }
+
+  .aboutUsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+  }
+
+  .serviceBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 3rem;
+  }
+
+  .contactBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem;
+  }
+
+  .contactBox p{
+    text-wrap: wrap;
+  }
+
+  .decideCardBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 3rem;
+  }
+
+  .decideCardMain {
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+
+  .footerBody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: stretch;
+    row-gap: 3rem;
+    padding: 6rem 2rem;
+  }
+
+  .copyRightsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 3rem;
+  }
+  
 }
 
 /* XX-Large devices (larger desktops, upto 1400px and above) */
