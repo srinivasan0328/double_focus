@@ -1107,6 +1107,7 @@
   color: var(--footerTextColor);
   font-size: 1.8rem;
   text-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .footP {
