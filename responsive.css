@@ -4,6 +4,7 @@
 
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
+
 @media (max-width: 576px) {
   .grid-1,
   .grid-2,
@@ -16,7 +17,7 @@
     /* background-color: #d49494; */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0rem 1rem;
   }
   .navLinkBlock {
     display: none;
@@ -31,16 +32,17 @@
     /* background-color: #b8860b; */
     /* padding: 1rem; */
     padding-right: 0rem;
+    padding-left: 0.5rem;
   }
 
   .logoBox img {
     /* background-color: #a52a2a; */
-    height: 4rem;
+    height: 3.5rem;
   }
 
   .heroBody {
     /* background-color: #a52a2a; */
-    padding: 2rem;
+    padding: 12rem 2rem;
   }
 
   .heroBlock {
@@ -235,7 +237,7 @@
     /* background-color: #d49494; */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0rem 5.5rem;
   }
   .navLinkBlock {
     display: none;
@@ -250,11 +252,12 @@
     /* background-color: #b8860b; */
     /* padding: 1rem; */
     padding-right: 0rem;
+    
   }
 
   .logoBox img {
     /* background-color: #a52a2a; */
-    height: 4rem;
+    height: 3.5rem;
   }
 
   .heroBody {
@@ -520,19 +523,19 @@
   .serviceBody{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem 7rem;
+    padding: 2rem;
   }
 
   .decideCardBody{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 4rem 9rem;
+    padding: 4rem;
   }
 
   .contactBody{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 4rem 9rem;
+    padding: 4rem;
   }
 
   .contactButtonBlock{
@@ -579,7 +582,7 @@
     gap: 1rem;
     align-items: stretch;
     row-gap: 2rem;
-    padding: 7rem 8rem;
+    padding: 7rem 3rem;
   }
 
   .footerBlock{
@@ -605,7 +608,7 @@
   .copyRightsBody{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem 10rem;
+    padding: 2.5rem 4rem;
   }
   .copyRightsImageBlock{
     display: flex;
@@ -721,13 +724,13 @@
     gap: 1rem;
     align-items: stretch;
     row-gap: 3rem;
-    padding: 6rem 2rem;
+    padding: 6rem 1rem;
   }
 
   .copyRightsBody{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
   }
   
 }

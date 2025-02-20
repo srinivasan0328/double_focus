@@ -1170,7 +1170,7 @@
 
 .copyRightsBlock {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 
@@ -1199,6 +1199,10 @@
   color: var(--footerTextColor);
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
+}
+
+.copyRightsImage img{
+  margin-bottom: 1.5rem;
 }
 
 .fixedIcon1 {
