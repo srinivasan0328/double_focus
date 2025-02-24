@@ -120,7 +120,7 @@
 /* step2: component */
 .heroSection {
   /* background-color: #40e0d0; */
-  background-image: url(./assets/images/heroBanner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/images/heroBanner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,7 +138,7 @@
 /* step4: row */
 .heroBody {
   /* background-color: #00ffff; */
-  padding: 10rem 5rem;
+  padding: 8rem 6rem;
 }
 
 /* step5: column */
@@ -156,6 +156,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  z-index: 2;
 }
 
 /* step7: contentContainer */
@@ -165,6 +166,9 @@
   font-size: 6.5rem;
   color: var(--primaryColor);
   margin-bottom: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 .heroBox p {
@@ -180,11 +184,12 @@
 .heroBtn {
   /* background-color: #769b52; */
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: flex-start;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem 0rem;
   column-gap: 2rem;
+  row-gap: 1rem;
 }
 
 .heroBtn button {
@@ -1221,18 +1226,16 @@
   color: #ffffff;
 }
 
-.fixedIcon2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
+.scrollUpBtn{
+  padding: 1rem 1.5rem;
+  background-color: #bfb9c3;
+  border: none;
+  border-radius: 5px;
+  box-shadow:#006a4e -4px 4px 24px -10px;
+  color: #1f1f1f;
+  font-size: 1.5rem;
+  font-weight: 600;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: #ffffff;
-  border-radius: 4px;
-  height: 50px;
-  width: 50px;
-  color: var(--secondaryColor);
-  box-shadow:#d2151e -4px 4px 24px -10px;
+  bottom: 3rem;
+  right: 1rem;
 }
